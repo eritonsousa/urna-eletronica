@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna não Confiável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="tudo">
+    <h1>ELEIÇÕES</h1>
+    <p id="obs">Coloque uma quantidade de votos para cada um, e em seguida aperte em CONFIRMAR!</p>
+    
+        <div id="dados">
+            
+                <p>
+                    <label for="c1">Candidato 1:</label>
+                    <input type="number" name="c1" id="c1" required inputmode="numeric">
+                </p>
+                <p>
+                    <label for="c2">Candidato 2:</label>
+                    <input type="number" name="c2" id="c2" required inputmode="numeric">
+                </p>
+                <p><input type="submit" value="CONFIRMAR" onclick="votar()"></p>
+            
+        </div>
+            <div id="titulo-res">RESULTADO</div>
+        <div id="res">
+            
+        </div>
+        <a href="../urna-confiavel/urna.html">Acesse a urna Confiável</a>
+    </section>
+    
+    <script src="contagem.js"></script>
+ 
+</body>
+</html>
