@@ -90,3 +90,9 @@ body {
 #res:hover {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.315);
 }
+
+@media (max-width: 960px){
+    #tudo {
+        width: 300px;
+    }
+}
