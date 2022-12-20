@@ -82,12 +82,19 @@ body {
 #res {
     background-color: white;
     border-radius: 15px;
-    font-weight: bold;
     padding: 10px;
     width: 90%;
-    height: 100px;
+    min-height: 100px;
+    max-height: 500px;
 }
 
 #res:hover {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.315);
+}
+
+@media (max-width: 960px){
+    #tudo {
+        width: 380px;
+    }
+
 }
